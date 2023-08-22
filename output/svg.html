@@ -1,12 +1,8 @@
-const Logo = require("./cli.js");
-
-function createDocument(shapes, shapesColor, text, textColor) {
-  const docText = toString(text);
-  return `<!doctype html>
+<!doctype html>
   <html lang="en-US">
     <head>
       <meta charset="utf-8" />
-      <title>${docText}</title>
+      <title>[object Undefined]</title>
       <meta name="viewport" content="width=device-width" />
     </head>
     <body>
@@ -21,7 +17,4 @@ function createDocument(shapes, shapesColor, text, textColor) {
       </svg>
     </body>
   </html>  
-  `;
-}
-
-module.exports = { createDocument };
+  
